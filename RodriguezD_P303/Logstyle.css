@@ -1,0 +1,40 @@
+#mydiv {
+    height:300px;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('loggy.jpg');  
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+    border-image-width: 50px;
+    border-image-outset: 50px;
+    }
+body{ 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(255, 94, 0);
+    width: 1000px;
+    border: 15px solid rgb(247, 243, 2);
+    padding: 50px;
+    margin: 80px;
+}
+h2{
+    color: #edecf0;  
+    padding: 20px;  
+}
+#username{
+    color: #edecf0;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+#pass{
+    color: #edecf0;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}

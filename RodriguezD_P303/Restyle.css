@@ -1,0 +1,14 @@
+table{
+   background-color:  #f080f0;
+}
+tr:nth-child(even){
+    background-color: #e7e95f;
+}
+tr:nth-child(odd){
+    background-color:#f5af2d;
+}
+
+body{
+    background-image: url(hotelalu.jpg);
+    background-color: #65d35b;
+}

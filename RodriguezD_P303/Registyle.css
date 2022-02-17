@@ -1,0 +1,49 @@
+#Imgbcg {
+    height:300px;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('hotel.jpg');  
+    border-image-repeat: stretch;
+    border-image-slice: 30;
+    border-image-width: 50px;
+    border-image-outset: 50px;
+    }
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: chartreuse;
+    width: 1000px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 80px;
+}
+#full_name{
+    color: #260064;
+    border-color: #ddc8dd;
+    
+}
+#add{
+    color: #260481;
+    border-color: #dacdda;
+}
+
+#cnum{
+    color: #262494;
+    border-color: #ece2ec;
+}
+
+#temp{
+     color: #25109b;
+    border-color: #eee8ee;
+}
+
+.button {
+  padding: 15px 25px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #aa2504;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
